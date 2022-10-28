@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="6" failed="11" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-24T18:43:39 IST" name="Default suite" finished-at="2022-05-24T18:43:52 IST" duration-ms="13662">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-05-24T18:43:39 IST" name="Default test" finished-at="2022-05-24T18:43:52 IST" duration-ms="13662">
+      <class name="parallel.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:39 IST" name="setUpClass" finished-at="2022-05-24T18:43:40 IST" duration-ms="1342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:40 IST" name="setUp" finished-at="2022-05-24T18:43:47 IST" duration-ms="6900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="beforeMethod" finished-at="2022-05-24T18:43:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="beforeMethod" finished-at="2022-05-24T18:43:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="beforeMethod" finished-at="2022-05-24T18:43:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="beforeMethod" finished-at="2022-05-24T18:43:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="beforeMethod" finished-at="2022-05-24T18:43:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="beforeMethod" finished-at="2022-05-24T18:43:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="beforeMethod" finished-at="2022-05-24T18:43:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="beforeMethod" finished-at="2022-05-24T18:43:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="beforeMethod" finished-at="2022-05-24T18:43:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="beforeMethod" finished-at="2022-05-24T18:43:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if String is Palindrome"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="738" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ECommerce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at parallel.CucumberTags.this_is_a_smoke_test_and_regression_test(CucumberTags.java:15)
+at ✽.This is a SmokeTest and RegressionTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if String is Palindrome"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid Palindrome"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if String is Palindrome"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="736" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["FunctionalTest"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ECommerce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at parallel.CucumberTags.this_is_a_functional_test(CucumberTags.java:9)
+at ✽.This is a Functional test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="739" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["UnSuccessful Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ECommerce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at parallel.CucumberTags.this_is_a_regression_test(CucumberTags.java:21)
+at ✽.This is a RegressionTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if String is Palindrome"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid Palindrome"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="739" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add a product to bag"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ECommerce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at parallel.CucumberTags.this_is_a_smoke_test(CucumberTags.java:27)
+at ✽.This is a SmokeTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:18)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="beforeMethod" finished-at="2022-05-24T18:43:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="146" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add multiple product to bag"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ECommerce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at parallel.CucumberTags.this_is_a_blank_test(CucumberTags.java:33)
+at ✽.This is a blank test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="beforeMethod" finished-at="2022-05-24T18:43:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="121" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Remove a product from bag"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ECommerce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at parallel.CucumberTags.this_is_a_remove_a_product_from_bag_test(CucumberTags.java:39)
+at ✽.This is a Remove a product from bag test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:25)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="beforeMethod" finished-at="2022-05-24T18:43:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="138" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Remove all products from bag"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ECommerce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at parallel.CucumberTags.this_is_part1_of_regression_test(CucumberTags.java:45)
+at ✽.This is part1 of RegressionTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:29)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="beforeMethod" finished-at="2022-05-24T18:43:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="149" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["product quantity from bag page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ECommerce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at parallel.CucumberTags.this_is_a_part1_of_smoke_testse(CucumberTags.java:51)
+at ✽.This is a part1 of SmokeTestse(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:33)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="beforeMethod" finished-at="2022-05-24T18:43:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="79" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Decrease product quantity from bag page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ECommerce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at parallel.CucumberTags.this_is_a_decrease_product_quantity_from_bag_page_test(CucumberTags.java:57)
+at ✽.This is a Decrease product quantity from bag page test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:36)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="123" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Buy a product with cash payment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ECommerce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at parallel.CucumberTags.this_is_a_buy_a_product_with_cash_payment_test(CucumberTags.java:63)
+at ✽.This is a Buy a product with cash payment test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:40)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="beforeMethod" finished-at="2022-05-24T18:43:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-24T18:43:48 IST" duration-ms="54" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Buy a product with CC payment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ECommerce Application]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at parallel.CucumberTags.this_is_a_buy_a_product_with_cc_payment_test(CucumberTags.java:69)
+at ✽.This is a Buy a product with CC payment test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:44)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="beforeMethod" finished-at="2022-05-24T18:43:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method is-config="true" signature="failedScenario()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="failedScenario" finished-at="2022-05-24T18:43:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="tearDown" finished-at="2022-05-24T18:43:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.TestRunner@67b9b51a]" started-at="2022-05-24T18:43:48 IST" name="tearDownClass" finished-at="2022-05-24T18:43:52 IST" duration-ms="4435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

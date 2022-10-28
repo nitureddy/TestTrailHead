@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\sunitha.reddy\AppData\Local\Temp\testng-eclipse-238530146\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 11 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Remove all products from bag&quot;, &quot;Optional[ECommerce Application]&quot;)">runScenario("Remove all products from bag", "Optional[ECommerce Application]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Decrease product quantity from bag page&quot;, &quot;Optional[ECommerce Application]&quot;)">runScenario("Decrease product quantity from bag page", "Optional[ECommerce Application]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Buy a product with cash payment&quot;, &quot;Optional[ECommerce Application]&quot;)">runScenario("Buy a product with cash payment", "Optional[ECommerce Application]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successful Login&quot;, &quot;Optional[ECommerce Application]&quot;)">runScenario("Successful Login", "Optional[ECommerce Application]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;FunctionalTest&quot;, &quot;Optional[ECommerce Application]&quot;)">runScenario("FunctionalTest", "Optional[ECommerce Application]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Buy a product with CC payment&quot;, &quot;Optional[ECommerce Application]&quot;)">runScenario("Buy a product with CC payment", "Optional[ECommerce Application]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;product quantity from bag page&quot;, &quot;Optional[ECommerce Application]&quot;)">runScenario("product quantity from bag page", "Optional[ECommerce Application]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;UnSuccessful Login&quot;, &quot;Optional[ECommerce Application]&quot;)">runScenario("UnSuccessful Login", "Optional[ECommerce Application]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Remove a product from bag&quot;, &quot;Optional[ECommerce Application]&quot;)">runScenario("Remove a product from bag", "Optional[ECommerce Application]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add multiple product to bag&quot;, &quot;Optional[ECommerce Application]&quot;)">runScenario("Add multiple product to bag", "Optional[ECommerce Application]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add a product to bag&quot;, &quot;Optional[ECommerce Application]&quot;)">runScenario("Add a product to bag", "Optional[ECommerce Application]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if String is Palindrome&quot;, &quot;Optional[Determine if String is Palindrome or not. A string is a p...)">runScenario("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a p...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if String is Palindrome&quot;, &quot;Optional[Determine if String is Palindrome or not. A string is a p...)">runScenario("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a p...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Invalid Palindrome&quot;, &quot;Optional[Determine if String is Palindrome or not. A string is a palindrome i...)">runScenario("Invalid Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome i...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if String is Palindrome&quot;, &quot;Optional[Determine if String is Palindrome or not. A string is a p...)">runScenario("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a p...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if String is Palindrome&quot;, &quot;Optional[Determine if String is Palindrome or not. A string is a p...)">runScenario("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a p...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Valid Palindrome&quot;, &quot;Optional[Determine if String is Palindrome or not. A string is a palindrome if ...)">runScenario("Valid Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome if ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">parallel.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Remove all products from bag&quot;, &quot;Optional[ECommerce Application]&quot;)">
+                  </a> <!-- runScenario("Remove all products from bag", "Optional[ECommerce Application]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Remove all products from bag", "Optional[ECommerce Application]")</span>
+                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_part1_of_regression_test(CucumberTags.java:45)
+	at ✽.This is part1 of RegressionTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:29)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Decrease product quantity from bag page&quot;, &quot;Optional[ECommerce Application]&quot;)">
+                  </a> <!-- runScenario("Decrease product quantity from bag page", "Optional[ECommerce Application]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Decrease product quantity from bag page", "Optional[ECommerce Application]")</span>
+                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_decrease_product_quantity_from_bag_page_test(CucumberTags.java:57)
+	at ✽.This is a Decrease product quantity from bag page test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:36)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Buy a product with cash payment&quot;, &quot;Optional[ECommerce Application]&quot;)">
+                  </a> <!-- runScenario("Buy a product with cash payment", "Optional[ECommerce Application]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Buy a product with cash payment", "Optional[ECommerce Application]")</span>
+                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_buy_a_product_with_cash_payment_test(CucumberTags.java:63)
+	at ✽.This is a Buy a product with cash payment test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:40)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful Login&quot;, &quot;Optional[ECommerce Application]&quot;)">
+                  </a> <!-- runScenario("Successful Login", "Optional[ECommerce Application]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful Login", "Optional[ECommerce Application]")</span>
+                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_smoke_test_and_regression_test(CucumberTags.java:15)
+	at ✽.This is a SmokeTest and RegressionTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:10)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;FunctionalTest&quot;, &quot;Optional[ECommerce Application]&quot;)">
+                  </a> <!-- runScenario("FunctionalTest", "Optional[ECommerce Application]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("FunctionalTest", "Optional[ECommerce Application]")</span>
+                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_functional_test(CucumberTags.java:9)
+	at ✽.This is a Functional test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:6)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Buy a product with CC payment&quot;, &quot;Optional[ECommerce Application]&quot;)">
+                  </a> <!-- runScenario("Buy a product with CC payment", "Optional[ECommerce Application]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Buy a product with CC payment", "Optional[ECommerce Application]")</span>
+                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_buy_a_product_with_cc_payment_test(CucumberTags.java:69)
+	at ✽.This is a Buy a product with CC payment test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:44)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;product quantity from bag page&quot;, &quot;Optional[ECommerce Application]&quot;)">
+                  </a> <!-- runScenario("product quantity from bag page", "Optional[ECommerce Application]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("product quantity from bag page", "Optional[ECommerce Application]")</span>
+                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_part1_of_smoke_testse(CucumberTags.java:51)
+	at ✽.This is a part1 of SmokeTestse(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:33)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;UnSuccessful Login&quot;, &quot;Optional[ECommerce Application]&quot;)">
+                  </a> <!-- runScenario("UnSuccessful Login", "Optional[ECommerce Application]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("UnSuccessful Login", "Optional[ECommerce Application]")</span>
+                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_regression_test(CucumberTags.java:21)
+	at ✽.This is a RegressionTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:14)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Remove a product from bag&quot;, &quot;Optional[ECommerce Application]&quot;)">
+                  </a> <!-- runScenario("Remove a product from bag", "Optional[ECommerce Application]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Remove a product from bag", "Optional[ECommerce Application]")</span>
+                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_remove_a_product_from_bag_test(CucumberTags.java:39)
+	at ✽.This is a Remove a product from bag test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:25)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add multiple product to bag&quot;, &quot;Optional[ECommerce Application]&quot;)">
+                  </a> <!-- runScenario("Add multiple product to bag", "Optional[ECommerce Application]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add multiple product to bag", "Optional[ECommerce Application]")</span>
+                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_blank_test(CucumberTags.java:33)
+	at ✽.This is a blank test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:21)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add a product to bag&quot;, &quot;Optional[ECommerce Application]&quot;)">
+                  </a> <!-- runScenario("Add a product to bag", "Optional[ECommerce Application]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add a product to bag", "Optional[ECommerce Application]")</span>
+                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_smoke_test(CucumberTags.java:27)
+	at ✽.This is a SmokeTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:18)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">parallel.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if String is Palindrome&quot;, &quot;Optional[Determine if String is Palindrome or not. A string is a p...)">
+                  </a> <!-- runScenario("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a p...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if String is Palindrome&quot;, &quot;Optional[Determine if String is Palindrome or not. A string is a p...)">
+                  </a> <!-- runScenario("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a p...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Invalid Palindrome&quot;, &quot;Optional[Determine if String is Palindrome or not. A string is a palindrome i...)">
+                  </a> <!-- runScenario("Invalid Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome i...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Invalid Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if String is Palindrome&quot;, &quot;Optional[Determine if String is Palindrome or not. A string is a p...)">
+                  </a> <!-- runScenario("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a p...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if String is Palindrome&quot;, &quot;Optional[Determine if String is Palindrome or not. A string is a p...)">
+                  </a> <!-- runScenario("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a p...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Valid Palindrome&quot;, &quot;Optional[Determine if String is Palindrome or not. A string is a palindrome if ...)">
+                  </a> <!-- runScenario("Valid Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome if ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Valid Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sunitha.reddy\AppData\Local\Temp\testng-eclipse-238530146\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;parallel.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'parallel.TestRunner')
+data.setCell(0, 3, 860);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'parallel.TestRunner')
+data.setCell(1, 3, 842);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'parallel.TestRunner')
+data.setCell(2, 3, 829);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'parallel.TestRunner')
+data.setCell(3, 3, 818);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'parallel.TestRunner')
+data.setCell(4, 3, 780);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'parallel.TestRunner')
+data.setCell(5, 3, 762);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'parallel.TestRunner')
+data.setCell(6, 3, 739);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'parallel.TestRunner')
+data.setCell(7, 3, 739);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'parallel.TestRunner')
+data.setCell(8, 3, 738);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'parallel.TestRunner')
+data.setCell(9, 3, 736);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'parallel.TestRunner')
+data.setCell(10, 3, 149);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'parallel.TestRunner')
+data.setCell(11, 3, 146);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'parallel.TestRunner')
+data.setCell(12, 3, 138);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'parallel.TestRunner')
+data.setCell(13, 3, 123);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'parallel.TestRunner')
+data.setCell(14, 3, 121);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'parallel.TestRunner')
+data.setCell(15, 3, 79);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'parallel.TestRunner')
+data.setCell(16, 3, 54);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">parallel.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1343 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8279 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a p...)</span>
+                <span class="method-start">8281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Successful Login", "Optional[ECommerce Application]")</span>
+                <span class="method-start">8281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a p...)</span>
+                <span class="method-start">8281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Invalid Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome i...)</span>
+                <span class="method-start">8281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a p...)</span>
+                <span class="method-start">8281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("FunctionalTest", "Optional[ECommerce Application]")</span>
+                <span class="method-start">8281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("UnSuccessful Login", "Optional[ECommerce Application]")</span>
+                <span class="method-start">8281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a p...)</span>
+                <span class="method-start">8281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Valid Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome if ...)</span>
+                <span class="method-start">8281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Add a product to bag", "Optional[ECommerce Application]")</span>
+                <span class="method-start">8281 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9029 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">9030 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Add multiple product to bag", "Optional[ECommerce Application]")</span>
+                <span class="method-start">9031 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">9031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9031 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Remove a product from bag", "Optional[ECommerce Application]")</span>
+                <span class="method-start">9032 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9033 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">9034 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Remove all products from bag", "Optional[ECommerce Application]")</span>
+                <span class="method-start">9035 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">9038 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("product quantity from bag page", "Optional[ECommerce Application]")</span>
+                <span class="method-start">9039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">9047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9047 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Decrease product quantity from bag page", "Optional[ECommerce Application]")</span>
+                <span class="method-start">9048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9063 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Buy a product with cash payment", "Optional[ECommerce Application]")</span>
+                <span class="method-start">9064 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">9064 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9109 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Buy a product with CC payment", "Optional[ECommerce Application]")</span>
+                <span class="method-start">9109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">9109 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9121 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9125 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9129 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9143 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9176 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9178 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9188 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">failedScenario</span>
+                <span class="method-start">9191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9194 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">9194 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

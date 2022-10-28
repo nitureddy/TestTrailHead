@@ -1,0 +1,249 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/11/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 24 18:43:39 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>13 seconds (13662 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Remove all products from bag", "Optional[ECommerce Application]"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_part1_of_regression_test(CucumberTags.java:45)
+	at ?.This is part1 of RegressionTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:29)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2025229142", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2025229142'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_part1_of_regression_test(CucumberTags.java:45)
+	at ?.This is part1 of RegressionTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:29)
+</pre></div></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Decrease product quantity from bag page", "Optional[ECommerce Application]"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_decrease_product_quantity_from_bag_page_test(CucumberTags.java:57)
+	at ?.This is a Decrease product quantity from bag page test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:36)
+</pre></div><a href='#' onClick='toggleBox("stack-trace824410257", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace824410257'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_decrease_product_quantity_from_bag_page_test(CucumberTags.java:57)
+	at ?.This is a Decrease product quantity from bag page test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:36)
+</pre></div></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Buy a product with cash payment", "Optional[ECommerce Application]"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_buy_a_product_with_cash_payment_test(CucumberTags.java:63)
+	at ?.This is a Buy a product with cash payment test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:40)
+</pre></div><a href='#' onClick='toggleBox("stack-trace308950504", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace308950504'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_buy_a_product_with_cash_payment_test(CucumberTags.java:63)
+	at ?.This is a Buy a product with cash payment test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:40)
+</pre></div></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful Login", "Optional[ECommerce Application]"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_smoke_test_and_regression_test(CucumberTags.java:15)
+	at ?.This is a SmokeTest and RegressionTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:10)
+</pre></div><a href='#' onClick='toggleBox("stack-trace683035938", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace683035938'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_smoke_test_and_regression_test(CucumberTags.java:15)
+	at ?.This is a SmokeTest and RegressionTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:10)
+</pre></div></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "FunctionalTest", "Optional[ECommerce Application]"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_functional_test(CucumberTags.java:9)
+	at ?.This is a Functional test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace765712614", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace765712614'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_functional_test(CucumberTags.java:9)
+	at ?.This is a Functional test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:6)
+</pre></div></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Buy a product with CC payment", "Optional[ECommerce Application]"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_buy_a_product_with_cc_payment_test(CucumberTags.java:69)
+	at ?.This is a Buy a product with CC payment test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:44)
+</pre></div><a href='#' onClick='toggleBox("stack-trace549415290", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace549415290'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_buy_a_product_with_cc_payment_test(CucumberTags.java:69)
+	at ?.This is a Buy a product with CC payment test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:44)
+</pre></div></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "product quantity from bag page", "Optional[ECommerce Application]"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_part1_of_smoke_testse(CucumberTags.java:51)
+	at ?.This is a part1 of SmokeTestse(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:33)
+</pre></div><a href='#' onClick='toggleBox("stack-trace345806473", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace345806473'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_part1_of_smoke_testse(CucumberTags.java:51)
+	at ?.This is a part1 of SmokeTestse(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:33)
+</pre></div></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "UnSuccessful Login", "Optional[ECommerce Application]"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_regression_test(CucumberTags.java:21)
+	at ?.This is a RegressionTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:14)
+</pre></div><a href='#' onClick='toggleBox("stack-trace80365196", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace80365196'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_regression_test(CucumberTags.java:21)
+	at ?.This is a RegressionTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:14)
+</pre></div></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Remove a product from bag", "Optional[ECommerce Application]"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_remove_a_product_from_bag_test(CucumberTags.java:39)
+	at ?.This is a Remove a product from bag test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace159770371", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace159770371'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_remove_a_product_from_bag_test(CucumberTags.java:39)
+	at ?.This is a Remove a product from bag test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:25)
+</pre></div></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add multiple product to bag", "Optional[ECommerce Application]"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_blank_test(CucumberTags.java:33)
+	at ?.This is a blank test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:21)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1957323303", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1957323303'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_blank_test(CucumberTags.java:33)
+	at ?.This is a blank test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:21)
+</pre></div></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add a product to bag", "Optional[ECommerce Application]"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_smoke_test(CucumberTags.java:27)
+	at ?.This is a SmokeTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:18)
+</pre></div><a href='#' onClick='toggleBox("stack-trace807839608", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace807839608'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at parallel.CucumberTags.this_is_a_smoke_test(CucumberTags.java:27)
+	at ?.This is a SmokeTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:18)
+</pre></div></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]"</td>
+<td></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]"</td>
+<td></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Invalid Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]"</td>
+<td></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]"</td>
+<td></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if String is Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]"</td>
+<td></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+<tr>
+<td title='parallel.TestRunner.runScenario()'><b>runScenario</b><br>Test class: parallel.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid Palindrome", "Optional[Determine if String is Palindrome or not. A string is a palindrome if it reads]"</td>
+<td></td>
+<td>0</td>
+<td>parallel.TestRunner@67b9b51a</td></tr>
+</table><p>
+</body>
+</html>

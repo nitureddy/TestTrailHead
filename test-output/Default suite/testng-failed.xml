@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="parallel.TestRunner">
+      <class name="com.apexit.testrunner.TestRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="beforeMethod"/>
-          <include name="runScenario" invocation-numbers="6 8 9 7 14 11 16 12 10 15 13"/>
-          <include name="tearDownClass"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
           <include name="failedScenario"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- parallel.TestRunner -->
+      </class> <!-- com.apexit.testrunner.TestRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

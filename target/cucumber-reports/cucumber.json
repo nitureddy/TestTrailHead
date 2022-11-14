@@ -3,775 +3,105 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-05-24T13:13:48.175Z",
+        "start_timestamp": "2022-11-10T13:11:27.596Z",
         "line": 5,
-        "name": "Valid Palindrome",
+        "name": "Create Contact",
         "description": "",
-        "id": "determine-if-string-is-palindrome-or-not.-a-string-is-a-palindrome-if-it-reads;valid-palindrome",
+        "id": "create-contact;create-contact",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 29993800,
+              "duration": 188978526000,
               "status": "passed"
             },
             "line": 6,
-            "name": "I entered string \"Refer\"",
+            "name": "Log in to SalesForce TrailHead",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Refer\"",
-                  "offset": 17
-                }
-              ],
-              "location": "parallel.CucumberOutline.iEnteredString(java.lang.String)"
+              "location": "com.apexit.Stepdefinitions.LoginTrailHead.Log_in_to_SalesForce_as_TrailHeads()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 951300,
+              "duration": 61946109500,
               "status": "passed"
             },
             "line": 7,
-            "name": "I test it for Palindrome",
+            "name": "Click on Contacts",
             "match": {
-              "location": "parallel.CucumberOutline.iTestItForPalindrome()"
+              "location": "com.apexit.Stepdefinitions.Contacts.click_on_contacts()"
             },
-            "keyword": "When "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 6265900,
+              "duration": 2217929900,
               "status": "passed"
             },
             "line": 8,
-            "name": "the result should be \"true\"",
+            "name": "Click on New Button in contacts view",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"true\"",
-                  "offset": 21
-                }
-              ],
-              "location": "parallel.CucumberOutline.theResultShouldBe(java.lang.String)"
+              "location": "com.apexit.Stepdefinitions.Contacts.click_on_new_button_in_contacts_view()"
             },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Palindrome"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-24T13:13:48.171Z",
-        "line": 10,
-        "name": "Invalid Palindrome",
-        "description": "",
-        "id": "determine-if-string-is-palindrome-or-not.-a-string-is-a-palindrome-if-it-reads;invalid-palindrome",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+            "keyword": "And "
+          },
           {
             "result": {
-              "duration": 15511500,
+              "duration": 19753725200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Populate all mandatory fields in contacts view",
+            "match": {
+              "location": "com.apexit.Stepdefinitions.Contacts.populate_all_mandatory_fields_in_contacts_view()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2149971800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Save button in contacts view",
+            "match": {
+              "location": "com.apexit.Stepdefinitions.Contacts.click_on_save_button_in_contacts_view()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3318968100,
               "status": "passed"
             },
             "line": 11,
-            "name": "I entered string \"Coin\"",
+            "name": "verify whether contact is created in Contacts view",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Coin\"",
-                  "offset": 17
-                }
-              ],
-              "location": "parallel.CucumberOutline.iEnteredString(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 13952300,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I test it for Palindrome",
-            "match": {
-              "location": "parallel.CucumberOutline.iTestItForPalindrome()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3904500,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "the result should be \"false\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"false\"",
-                  "offset": 21
-                }
-              ],
-              "location": "parallel.CucumberOutline.theResultShouldBe(java.lang.String)"
+              "location": "com.apexit.Stepdefinitions.Contacts.verify_whether_contact_is_created_in_contacts_view()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@Palindrome"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-24T13:13:48.165Z",
-        "line": 21,
-        "name": "Check if String is Palindrome",
-        "description": "",
-        "id": "determine-if-string-is-palindrome-or-not.-a-string-is-a-palindrome-if-it-reads;check-if-string-is-palindrome;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2182100,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I entered word \"Refer\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Refer\"",
-                  "offset": 15
-                }
-              ],
-              "location": "parallel.CucumberOutline.iEnteredStringWord(java.lang.String)"
-            },
-            "keyword": "Given "
+            "name": "@CreateContact"
           },
           {
-            "result": {
-              "duration": 1013300,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I test it for Palindrome",
-            "match": {
-              "location": "parallel.CucumberOutline.iTestItForPalindrome()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 17199400,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "the output should be \"true\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"true\"",
-                  "offset": 21
-                }
-              ],
-              "location": "parallel.CucumberOutline.theOutputShouldBeResult(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Palindrome"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-24T13:13:48.174Z",
-        "line": 22,
-        "name": "Check if String is Palindrome",
-        "description": "",
-        "id": "determine-if-string-is-palindrome-or-not.-a-string-is-a-palindrome-if-it-reads;check-if-string-is-palindrome;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 29510700,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I entered word \"Coin\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Coin\"",
-                  "offset": 15
-                }
-              ],
-              "location": "parallel.CucumberOutline.iEnteredStringWord(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 33967700,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I test it for Palindrome",
-            "match": {
-              "location": "parallel.CucumberOutline.iTestItForPalindrome()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4984100,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "the output should be \"false\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"false\"",
-                  "offset": 21
-                }
-              ],
-              "location": "parallel.CucumberOutline.theOutputShouldBeResult(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Palindrome"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-24T13:13:48.173Z",
-        "line": 23,
-        "name": "Check if String is Palindrome",
-        "description": "",
-        "id": "determine-if-string-is-palindrome-or-not.-a-string-is-a-palindrome-if-it-reads;check-if-string-is-palindrome;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1723100,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I entered word \"Space\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Space\"",
-                  "offset": 15
-                }
-              ],
-              "location": "parallel.CucumberOutline.iEnteredStringWord(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4255300,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I test it for Palindrome",
-            "match": {
-              "location": "parallel.CucumberOutline.iTestItForPalindrome()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 17021400,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "the output should be \"false\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"false\"",
-                  "offset": 21
-                }
-              ],
-              "location": "parallel.CucumberOutline.theOutputShouldBeResult(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Palindrome"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-24T13:13:48.170Z",
-        "line": 24,
-        "name": "Check if String is Palindrome",
-        "description": "",
-        "id": "determine-if-string-is-palindrome-or-not.-a-string-is-a-palindrome-if-it-reads;check-if-string-is-palindrome;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 42594300,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I entered word \"racecar\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"racecar\"",
-                  "offset": 15
-                }
-              ],
-              "location": "parallel.CucumberOutline.iEnteredStringWord(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I test it for Palindrome",
-            "match": {
-              "location": "parallel.CucumberOutline.iTestItForPalindrome()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 15028200,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "the output should be \"true\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"true\"",
-                  "offset": 21
-                }
-              ],
-              "location": "parallel.CucumberOutline.theOutputShouldBeResult(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Palindrome"
+            "name": "@CreateContact"
           }
         ]
       }
     ],
-    "name": "Determine if String is Palindrome or not. A string is a palindrome if it reads",
-    "description": "  the same backwards as forwards.\n ",
-    "id": "determine-if-string-is-palindrome-or-not.-a-string-is-a-palindrome-if-it-reads",
-    "keyword": "Feature",
-    "uri": "file:TrailHeadFeatures/parallel/CucumberOutline.feature",
-    "tags": [
-      {
-        "name": "@Palindrome",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "start_timestamp": "2022-05-24T13:13:48.026Z",
-        "line": 5,
-        "name": "FunctionalTest",
-        "description": "",
-        "id": "ecommerce-application;functionaltest",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat parallel.CucumberTags.this_is_a_functional_test(CucumberTags.java:9)\r\n\tat ✽.This is a Functional test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:6)\r\n",
-              "duration": 111682600,
-              "status": "pending"
-            },
-            "line": 6,
-            "name": "This is a Functional test",
-            "match": {
-              "location": "parallel.CucumberTags.this_is_a_functional_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@createOrder"
-          },
-          {
-            "name": "@FunctionalTest"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-24T13:13:48.027Z",
-        "line": 9,
-        "name": "Successful Login",
-        "description": "",
-        "id": "ecommerce-application;successful-login",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat parallel.CucumberTags.this_is_a_smoke_test_and_regression_test(CucumberTags.java:15)\r\n\tat ✽.This is a SmokeTest and RegressionTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:10)\r\n",
-              "duration": 112527600,
-              "status": "pending"
-            },
-            "line": 10,
-            "name": "This is a SmokeTest and RegressionTest",
-            "match": {
-              "location": "parallel.CucumberTags.this_is_a_smoke_test_and_regression_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@createOrder"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-24T13:13:48.026Z",
-        "line": 13,
-        "name": "UnSuccessful Login",
-        "description": "",
-        "id": "ecommerce-application;unsuccessful-login",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat parallel.CucumberTags.this_is_a_regression_test(CucumberTags.java:21)\r\n\tat ✽.This is a RegressionTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:14)\r\n",
-              "duration": 112527600,
-              "status": "pending"
-            },
-            "line": 14,
-            "name": "This is a RegressionTest",
-            "match": {
-              "location": "parallel.CucumberTags.this_is_a_regression_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@createOrder"
-          },
-          {
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-24T13:13:48.025Z",
-        "line": 17,
-        "name": "Add a product to bag",
-        "description": "",
-        "id": "ecommerce-application;add-a-product-to-bag",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat parallel.CucumberTags.this_is_a_smoke_test(CucumberTags.java:27)\r\n\tat ✽.This is a SmokeTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:18)\r\n",
-              "duration": 4558300,
-              "status": "pending"
-            },
-            "line": 18,
-            "name": "This is a SmokeTest",
-            "match": {
-              "location": "parallel.CucumberTags.this_is_a_smoke_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@createOrder"
-          },
-          {
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-24T13:13:48.486Z",
-        "line": 20,
-        "name": "Add multiple product to bag",
-        "description": "",
-        "id": "ecommerce-application;add-multiple-product-to-bag",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat parallel.CucumberTags.this_is_a_blank_test(CucumberTags.java:33)\r\n\tat ✽.This is a blank test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:21)\r\n",
-              "duration": 1993300,
-              "status": "pending"
-            },
-            "line": 21,
-            "name": "This is a blank test",
-            "match": {
-              "location": "parallel.CucumberTags.this_is_a_blank_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@createOrder"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-24T13:13:48.449Z",
-        "line": 24,
-        "name": "Remove a product from bag",
-        "description": "",
-        "id": "ecommerce-application;remove-a-product-from-bag",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat parallel.CucumberTags.this_is_a_remove_a_product_from_bag_test(CucumberTags.java:39)\r\n\tat ✽.This is a Remove a product from bag test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:25)\r\n",
-              "duration": 4000500,
-              "status": "pending"
-            },
-            "line": 25,
-            "name": "This is a Remove a product from bag test",
-            "match": {
-              "location": "parallel.CucumberTags.this_is_a_remove_a_product_from_bag_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@createOrder"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-24T13:13:48.481Z",
-        "line": 28,
-        "name": "Remove all products from bag",
-        "description": "",
-        "id": "ecommerce-application;remove-all-products-from-bag",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat parallel.CucumberTags.this_is_part1_of_regression_test(CucumberTags.java:45)\r\n\tat ✽.This is part1 of RegressionTest(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:29)\r\n",
-              "duration": 3249300,
-              "status": "pending"
-            },
-            "line": 29,
-            "name": "This is part1 of RegressionTest",
-            "match": {
-              "location": "parallel.CucumberTags.this_is_part1_of_regression_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@createOrder"
-          },
-          {
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-24T13:13:48.498Z",
-        "line": 32,
-        "name": "product quantity from bag page",
-        "description": "",
-        "id": "ecommerce-application;product-quantity-from-bag-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat parallel.CucumberTags.this_is_a_part1_of_smoke_testse(CucumberTags.java:51)\r\n\tat ✽.This is a part1 of SmokeTestse(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:33)\r\n",
-              "duration": 998200,
-              "status": "pending"
-            },
-            "line": 33,
-            "name": "This is a part1 of SmokeTestse",
-            "match": {
-              "location": "parallel.CucumberTags.this_is_a_part1_of_smoke_testse()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@createOrder"
-          },
-          {
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-24T13:13:48.384Z",
-        "line": 35,
-        "name": "Decrease product quantity from bag page",
-        "description": "",
-        "id": "ecommerce-application;decrease-product-quantity-from-bag-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat parallel.CucumberTags.this_is_a_decrease_product_quantity_from_bag_page_test(CucumberTags.java:57)\r\n\tat ✽.This is a Decrease product quantity from bag page test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:36)\r\n",
-              "duration": 1388700,
-              "status": "pending"
-            },
-            "line": 36,
-            "name": "This is a Decrease product quantity from bag page test",
-            "match": {
-              "location": "parallel.CucumberTags.this_is_a_decrease_product_quantity_from_bag_page_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@createOrder"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-24T13:13:48.490Z",
-        "line": 39,
-        "name": "Buy a product with cash payment",
-        "description": "",
-        "id": "ecommerce-application;buy-a-product-with-cash-payment",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat parallel.CucumberTags.this_is_a_buy_a_product_with_cash_payment_test(CucumberTags.java:63)\r\n\tat ✽.This is a Buy a product with cash payment test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:40)\r\n",
-              "duration": 1110700,
-              "status": "pending"
-            },
-            "line": 40,
-            "name": "This is a Buy a product with cash payment test",
-            "match": {
-              "location": "parallel.CucumberTags.this_is_a_buy_a_product_with_cash_payment_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@createOrder"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@End2End"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-24T13:13:48.465Z",
-        "line": 43,
-        "name": "Buy a product with CC payment",
-        "description": "",
-        "id": "ecommerce-application;buy-a-product-with-cc-payment",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat parallel.CucumberTags.this_is_a_buy_a_product_with_cc_payment_test(CucumberTags.java:69)\r\n\tat ✽.This is a Buy a product with CC payment test(file:///C:/Users/sunitha.reddy/OneDrive%20-%20Apex%20IT/Pictures/Creighton/TrailHeadFeatures/parallel/CucumberTags.feature:44)\r\n",
-              "duration": 995900,
-              "status": "pending"
-            },
-            "line": 44,
-            "name": "This is a Buy a product with CC payment test",
-            "match": {
-              "location": "parallel.CucumberTags.this_is_a_buy_a_product_with_cc_payment_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@createOrder"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@End2End"
-          }
-        ]
-      }
-    ],
-    "name": "ECommerce Application",
+    "name": "Create Contact",
     "description": "",
-    "id": "ecommerce-application",
+    "id": "create-contact",
     "keyword": "Feature",
-    "uri": "file:TrailHeadFeatures/parallel/CucumberTags.feature",
+    "uri": "file:TrailHeadFeatures/Contacts.feature",
     "tags": [
       {
-        "name": "@createOrder",
+        "name": "@CreateContact",
         "type": "Tag",
         "location": {
           "line": 1,

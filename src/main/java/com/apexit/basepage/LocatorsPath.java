@@ -57,20 +57,21 @@ public class LocatorsPath {
 	public static final String LVAllAccsave="//button[contains(text(),'Save')]";
 	
 	
-	public static final String Contacts="//span[@class='slds-truncate'][normalize-space()='Contacts']";
 	
-	public static final String Salutation="//button[@name='salutation']";
+	//public static final String Salutation="//button[@name='salutation']";
 	
-	public static final String FirstName="input[placeholder='First Name']";
+	public static final String FirstName="//input[@placeholder='First Name']";
 	public static final String LastName="//input[@placeholder='Last Name']";
-	public static final String SearchAccount="input[placeholder='Search Accounts...']";
-	public static final String SelAccount="(//lightning-base-combobox-item[contains(@id,'combobox')])[7]";
+	public static final String SearchAccount="//input[@placeholder='Search Accounts...']";
+	public static final String SelAccount="//li[@role='presentation']//lightning-base-combobox-item[@role='option']";//(//lightning-base-combobox-item[contains(@id,'combobox')])[3]";
+	public static final String Contacts="//span[@class='slds-truncate'][normalize-space()='Contacts']";
+
+	public static final String Salutation="(//button[@aria-label='Salutation, --None--'])[1]";
 	
+//	public static final String Salutation="(//li[@role='presentation'])[5]";
 	
-	
-	
-	
-	
+	public static final String selSalutation="//span[@title='Mr.']";
+	public static final String contact="//span[@class='custom-truncate uiOutputText']";
 	
 	
 

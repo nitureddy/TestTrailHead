@@ -49,9 +49,9 @@ public class Lead extends TestRunner{
 	}
 
 	@Then("Click on Save button in Leads view")
-	public void click_on_save_button_in_leads_view() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	public void click_on_save_button_in_leads_view() throws Exception {
+	    PageObjects.SelectByXpath(driver,LocatorsPath.Save,NavigatorsLocPath.MAX_TIME);
+
 	}
 
 	@Then("verify whether contact is created in Leads view")

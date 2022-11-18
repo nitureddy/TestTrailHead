@@ -48,7 +48,6 @@ public class Contacts  extends TestRunner{
     	file1.setCellData("Contact", "LASTNAME", 2, lname);
 		PageObjects.SelectByXpathWithSendKeys(driver, LocatorsPath.LastName, NavigatorsLocPath.MAX_TIME, lname);
 		PageObjects.SelectByXpathWithSendKeys(driver, LocatorsPath.SearchAccount, NavigatorsLocPath.MAX_TIME, account);
-
 		PageObjects.SelectByXpath(driver,LocatorsPath.SelAccount,NavigatorsLocPath.MAX_TIME);
 
 	}

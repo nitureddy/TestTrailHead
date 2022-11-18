@@ -30,7 +30,7 @@ import io.cucumber.testng.CucumberOptions;
 	        		// "html:target/cucumber-html-report", 
 	                   "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 	       	     	      //	tags="@LoginTrailhead",
-	        		 tags="@CreateContact",
+	        		 tags="@CreateLead",
 	        monochrome = true)//display output in readable format
 	       // dryRun=true) //to check the feature files are mapped with step definition
 	

@@ -3,17 +3,17 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-11-10T13:11:27.596Z",
+        "start_timestamp": "2022-11-17T13:12:16.708Z",
         "line": 5,
-        "name": "Create Contact",
+        "name": "Create Lead",
         "description": "",
-        "id": "create-contact;create-contact",
+        "id": "create-lead;create-lead",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 188978526000,
+              "duration": 117330050300,
               "status": "passed"
             },
             "line": 6,
@@ -25,83 +25,69 @@
           },
           {
             "result": {
-              "duration": 61946109500,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 7,
-            "name": "Click on Contacts",
-            "match": {
-              "location": "com.apexit.Stepdefinitions.Contacts.click_on_contacts()"
-            },
+            "name": "Click on Lead",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2217929900,
-              "status": "passed"
+              "duration": 963800,
+              "status": "skipped"
             },
             "line": 8,
-            "name": "Click on New Button in contacts view",
-            "match": {
-              "location": "com.apexit.Stepdefinitions.Contacts.click_on_new_button_in_contacts_view()"
-            },
+            "name": "Click on New Button in Leads view",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 19753725200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
-            "name": "Populate all mandatory fields in contacts view",
-            "match": {
-              "location": "com.apexit.Stepdefinitions.Contacts.populate_all_mandatory_fields_in_contacts_view()"
-            },
+            "name": "Populate all mandatory fields in Leads view",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2149971800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
-            "name": "Click on Save button in contacts view",
-            "match": {
-              "location": "com.apexit.Stepdefinitions.Contacts.click_on_save_button_in_contacts_view()"
-            },
+            "name": "Click on Save button in Leads view",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3318968100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
-            "name": "verify whether contact is created in Contacts view",
-            "match": {
-              "location": "com.apexit.Stepdefinitions.Contacts.verify_whether_contact_is_created_in_contacts_view()"
-            },
+            "name": "verify whether contact is created in Leads view",
+            "match": {},
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@CreateContact"
+            "name": "@CreateLead"
           },
           {
-            "name": "@CreateContact"
+            "name": "@CreateLead"
           }
         ]
       }
     ],
-    "name": "Create Contact",
+    "name": "Create Lead",
     "description": "",
-    "id": "create-contact",
+    "id": "create-lead",
     "keyword": "Feature",
-    "uri": "file:TrailHeadFeatures/Contacts.feature",
+    "uri": "file:TrailHeadFeatures/Lead.feature",
     "tags": [
       {
-        "name": "@CreateContact",
+        "name": "@CreateLead",
         "type": "Tag",
         "location": {
           "line": 1,

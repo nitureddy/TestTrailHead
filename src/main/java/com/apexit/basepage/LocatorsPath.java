@@ -56,7 +56,7 @@ public class LocatorsPath {
 	public static final String LVAllAccsDone="//span[normalize-space()='Done']";
 	public static final String LVAllAccsave="//button[contains(text(),'Save')]";
 	
-	
+	public static final String leads="//a[@title='Leads']";
 	
 	//public static final String Salutation="//button[@name='salutation']";
 	
@@ -67,12 +67,25 @@ public class LocatorsPath {
 	public static final String Contacts="//span[@class='slds-truncate'][normalize-space()='Contacts']";
 
 	public static final String Salutation="(//button[@aria-label='Salutation, --None--'])[1]";
-	
+	public static final String company="//input[@name='Company']";
+	public static final String title="//input[@name='Title']";
 //	public static final String Salutation="(//li[@role='presentation'])[5]";
 	
 	public static final String selSalutation="//span[@title='Mr.']";
 	public static final String contact="//span[@class='custom-truncate uiOutputText']";
 	
-	
+	public static final String leadSource="//button[@aria-label='Lead Source, --None--']";
+	public static final String leadStatus="//button[@aria-label='Lead Status, Open - Not Contacted']";
+	public static final String revenue="//input[@name='AnnualRevenue']";
+	public static final String rating="//input[@name='AnnualRevenue']";
+	public static final String Employess="//input[@name='NumberOfEmployees']";
 
+	public static final String street="//textarea[@name='street']";
+	public static final String city="input[name='city']";
+	public static final String province="//input[@name='province']";
+	public static final String postalCode="//input[@name='postalCode']";
+	public static final String country="//input[@name='country']";
+			
+
+	
 }
